@@ -24,23 +24,22 @@ function App() {
             </Box>
             <Box display="flex"justifyContent="center">
               <Box width={3/4} mt={5}>
-                <Box display="flex" justifyContent="flex-start" m={1} p={1}>
+                <Box display="flex" justifyContent="center" m={1} p={1}>
                   <Box p={1}>
                     <img src={foa_image}/>
-                    
                   </Box>
                 </Box>
-                <Box display="flex" justifyContent="flex-end" m={1} p={1}>
+                <Box display="flex" justifyContent="center" m={1} p={1}>
                   <Box p={1}>
                     <img src={hearts_image} className="App-logo"/>
                   </Box>
                 </Box>
-                <Box display="flex" justifyContent="flex-start" m={1} p={1} >
+                <Box display="flex" justifyContent="center" m={1} p={1} >
                   <Box p={1}>
                     <img src={ordlips_image}/>
                   </Box>
                 </Box>
-                <Box display="flex" justifyContent="flex-end" m={1} p={1}>
+                <Box display="flex" justifyContent="center" m={1} p={1}>
                   <Box p={1}>
                     <img src={astro_image}/>
                   </Box>
