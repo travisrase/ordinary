@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  background-color: black;
+  height: 100%;
+  display: inline;
 }
 
 .App-logo {
@@ -9,23 +11,8 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 25s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +23,35 @@
     transform: rotate(360deg);
   }
 }
+.willieText{
+  float: right;
+  font-family: 'Courier New';
+  color: white;
+}
+
+.infoText{
+  float: right;
+  font-family: 'Courier New';
+  color: white;
+  align-self: center;
+}
+
+.gallery-image{
+  position: relative;
+  float: left;
+  margin-top: 10%;
+  margin-left: 10%;
+  max-width: 80%;
+  height: auto;
+}
+
+.fish{
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  margin-top: 5%;
+  margin-left: 6.5%;
+  max-width: 35%;
+  height: auto;
+}
+
