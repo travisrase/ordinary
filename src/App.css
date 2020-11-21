@@ -45,6 +45,16 @@
   height: auto;
 }
 
+.design-image{
+  max-width: 80%;
+  height: auto;
+}
+
+.design-image-large{
+  max-width: 87%;
+  height: auto;
+}
+
 .fish{
   position: absolute;
   top: 30px;
