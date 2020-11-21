@@ -39,12 +39,12 @@ function App() {
                 </Box>
                 <Box display="flex" justifyContent="center" m={1} p={1} >
                   <Box p={1}>
-                    <img src={ordlips_image} className="design-image"/>
+                    <img src={astro_image} className="design-image-large"/>
                   </Box>
                 </Box>
                 <Box display="flex" justifyContent="center" m={1} p={1}>
                   <Box p={1}>
-                    <img src={astro_image} className="design-image-large"/>
+                    <img src={ordlips_image} className="App-logo"/>
                   </Box>
                 </Box>
                 <Box display="flex" justifyContent="center" m={1} p={1}>
@@ -59,7 +59,12 @@ function App() {
                 </Box>
                 <Box display="flex" justifyContent="center" m={1} p={1}>
                   <Box p={1}>
-                    <img src={ordinary_image} className="design-image"/>
+                    <img src={ordinary_image} className="App-logo"/>
+                  </Box>
+                </Box>
+                <Box display="flex" justifyContent="center" m={1} p={1}>
+                  <Box p={5}>
+                    <text className="thankYouText">thank you</text>
                   </Box>
                 </Box>
               </Box>

@@ -36,6 +36,12 @@
   align-self: center;
 }
 
+.thankYouText{
+  float: right;
+  font-family: 'Courier New';
+  color: white;
+}
+
 .gallery-image{
   position: relative;
   float: left;
