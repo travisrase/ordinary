@@ -42,12 +42,12 @@
   color: white;
 }
 
-.gallery-image{
+.code-image{
   position: relative;
   float: left;
   margin-top: 10%;
-  margin-left: 10%;
-  max-width: 80%;
+  margin-left: -30%;
+  max-width: 400%;
   height: auto;
 }
 
@@ -63,8 +63,8 @@
 
 .fish{
   position: absolute;
-  top: 30px;
-  left: 15px;
+  top: 320px;
+  left: -30px;
   margin-top: 5%;
   margin-left: 6.5%;
   max-width: 80%;

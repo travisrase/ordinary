@@ -1,6 +1,6 @@
 import Box from '@material-ui/core/Box';
 
-import gallery_image from './images/gallery.png';
+import code_image from './images/code_image.jpg';
 import astro_image from './images/astro.png';
 import foa_image from './images/foa.png';
 import hearts_image from './images/hearts.png';
@@ -21,7 +21,7 @@ function App() {
             <Box display="flex" justifyContent="center" m={1} p={1}>
               <Box p={1} width={3/4}>
                 <text className="willieText">willie</text>
-                <img src={gallery_image} className="gallery-image"/>
+                <img src={code_image} className="code-image"/>
                 <img src={error_popup_gif} className='fish'/>
                 <text className="infoText">sketches come in hoodies</text>
                 <br/>
