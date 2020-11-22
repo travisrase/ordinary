@@ -51,6 +51,11 @@
   height: auto;
 }
 
+.gallery-image{
+  max-width: 80%;
+  height: auto;
+}
+
 .design-image{
   max-width: 80%;
   height: auto;
