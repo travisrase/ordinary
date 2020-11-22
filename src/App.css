@@ -30,7 +30,7 @@
 }
 
 .infoText{
-  float: right;
+  float: center;
   font-family: 'Courier New';
   color: white;
   align-self: center;

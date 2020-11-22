@@ -9,6 +9,7 @@ import mona_image from './images/mona.png';
 import ordinary_image from './images/ordinary.png';
 import secret_image from './images/secret.png';
 import fish_gif from './images/fishies.gif';
+import error_popup_gif from './images/error_popup.gif';
 import './App.css';
 
 function App() {
@@ -21,8 +22,10 @@ function App() {
               <Box p={1} width={3/4}>
                 <text className="willieText">willie</text>
                 <img src={gallery_image} className="gallery-image"/>
-                <img src={fish_gif} className='fish'/>
-                <text className="infoText">all sketches come in hoodies for an order text 720.251.6343</text>
+                <img src={error_popup_gif} className='fish'/>
+                <text className="infoText">sketches come in hoodies</text>
+                <br/>
+                <text className="infoText">to order text 720.251.6343</text>
               </Box>
             </Box>
             <Box display="flex"justifyContent="center">
