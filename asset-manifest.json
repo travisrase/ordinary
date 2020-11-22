@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.71e02254.chunk.css",
-    "main.js": "/static/js/main.b38d2630.chunk.js",
-    "main.js.map": "/static/js/main.b38d2630.chunk.js.map",
+    "main.css": "/static/css/main.01fbcd19.chunk.css",
+    "main.js": "/static/js/main.c20fbb01.chunk.js",
+    "main.js.map": "/static/js/main.c20fbb01.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.66aa8e7c.js",
     "runtime-main.js.map": "/static/js/runtime-main.66aa8e7c.js.map",
     "static/js/2.3c18723e.chunk.js": "/static/js/2.3c18723e.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.25889817.chunk.js": "/static/js/3.25889817.chunk.js",
     "static/js/3.25889817.chunk.js.map": "/static/js/3.25889817.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.71e02254.chunk.css.map": "/static/css/main.71e02254.chunk.css.map",
+    "static/css/main.01fbcd19.chunk.css.map": "/static/css/main.01fbcd19.chunk.css.map",
     "static/js/2.3c18723e.chunk.js.LICENSE.txt": "/static/js/2.3c18723e.chunk.js.LICENSE.txt",
     "static/media/astro.28a6e911.png": "/static/media/astro.28a6e911.png",
+    "static/media/code_image.117c2415.jpg": "/static/media/code_image.117c2415.jpg",
     "static/media/error_popup.d0f6dfb5.gif": "/static/media/error_popup.d0f6dfb5.gif",
     "static/media/fishies.4527eb69.gif": "/static/media/fishies.4527eb69.gif",
     "static/media/foa.1737f1a9.png": "/static/media/foa.1737f1a9.png",
-    "static/media/gallery.c12b832e.png": "/static/media/gallery.c12b832e.png",
     "static/media/hearts.f28ba597.png": "/static/media/hearts.f28ba597.png",
     "static/media/mona.389bbcf1.png": "/static/media/mona.389bbcf1.png",
     "static/media/ordinary.4a12b8b1.png": "/static/media/ordinary.4a12b8b1.png",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.66aa8e7c.js",
     "static/js/2.3c18723e.chunk.js",
-    "static/css/main.71e02254.chunk.css",
-    "static/js/main.b38d2630.chunk.js"
+    "static/css/main.01fbcd19.chunk.css",
+    "static/js/main.c20fbb01.chunk.js"
   ]
 }
