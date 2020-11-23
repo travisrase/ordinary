@@ -15,6 +15,16 @@
   }
 }
 
+.blink {
+  animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -54,6 +64,7 @@
 .gallery-image{
   max-width: 80%;
   height: auto;
+  animation: blinker 1s step-start infinite;
 }
 
 .design-image{

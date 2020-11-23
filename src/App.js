@@ -27,12 +27,18 @@ function App() {
                   <img src={code_image} className="code-image"/>
                   <img src={error_popup_gif} className='fish'/>
                 </Box>
-                <Box>
-                  <img src={gallery_image} className='gallery-image'/>
+                <Box mt={40} width="100%" justifyContent="center">
+                  <Box display="flex" flexDirection="row" justifyContent="center" p={1} m={1}>
+                    <img src={gallery_image} className='gallery-image'/>
+                  </Box>
+                  <Box display="flex" justifyContent="center">
+                    <Box>
+                      <text className="infoText">sketches come in hoodies</text>
+                      <br/>
+                      <text className="infoText">to order text 720.251.6343</text>
+                    </Box>
+                  </Box>
                 </Box>
-                <text className="infoText">sketches come in hoodies</text>
-                <br/>
-                <text className="infoText">to order text 720.251.6343</text>
               </Box>
             </Box>
             <Box display="flex"justifyContent="center">
@@ -54,7 +60,7 @@ function App() {
                 </Box>
                 <Box display="flex" justifyContent="center" m={1} p={1}>
                   <Box p={1}>
-                    <img src={ordlips_image} className="App-logo"/>
+                    <img src={ordlips_image} className="design-image"/>
                   </Box>
                 </Box>
                 <Box display="flex" justifyContent="center" m={1} p={1}>
@@ -69,7 +75,7 @@ function App() {
                 </Box>
                 <Box display="flex" justifyContent="center" m={1} p={1}>
                   <Box p={1}>
-                    <img src={ordinary_image} className="App-logo"/>
+                    <img src={ordinary_image} className="design-image"/>
                   </Box>
                 </Box>
                 <Box display="flex" justifyContent="center" m={1} p={1}>
