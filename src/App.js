@@ -27,8 +27,8 @@ function App() {
                   <img src={code_image} className="code-image"/>
                   <img src={error_popup_gif} className='fish'/>
                 </Box>
-                <Box mt={40} width="100%" justifyContent="center">
-                  <Box display="flex" flexDirection="row" justifyContent="center" p={1} m={1}>
+                <Box mt={30} width="100%" justifyContent="center">
+                  <Box display="flex" justifyContent="center" p={1} m={1}>
                     <img src={gallery_image} className='gallery-image'/>
                   </Box>
                   <Box display="flex" justifyContent="center">
