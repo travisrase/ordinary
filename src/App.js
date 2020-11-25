@@ -1,3 +1,5 @@
+import { useRef, useEffect } from 'react';
+
 import Box from '@material-ui/core/Box';
 
 import code_image from './images/code_image.jpg';
@@ -14,6 +16,14 @@ import './App.css';
 
 function App() {
 
+  const divRef = useRef(null);
+
+  useEffect(() => {
+    setTimeout(function() { 
+      divRef.current.scrollIntoView({ behavior: 'smooth' });
+    }.bind(this), 3000)
+  });
+
   return (
     <div className="App">
         <Box display="flex" justifyContent="center">
@@ -29,6 +39,7 @@ function App() {
                 </Box>
                 <Box mt={30} width="100%" justifyContent="center">
                   <Box display="flex" justifyContent="center" p={1} m={1}>
+                    <div ref={divRef}/>
                     <img src={gallery_image} className='gallery-image'/>
                   </Box>
                   <Box display="flex" justifyContent="center">
