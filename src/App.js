@@ -59,7 +59,7 @@ function App() {
                 </Box>
                 <Box display="flex" justifyContent="center" m={1} p={1} >
                   <Box p={1}>
-                    <img src={big_heart_image} className="design-image image-large"/>
+                    <img src={big_heart_image} className="image-large"/>
                   </Box>
                 </Box>
                 <Box display="flex" justifyContent="center" m={1} p={1}>
@@ -69,7 +69,7 @@ function App() {
                 </Box>
                 <Box display="flex" justifyContent="center" m={1} p={1}>
                   <Box p={1}>
-                    <img src={rant_image} className="design-image image-large"/>
+                    <img src={rant_image} className="image-large"/>
                   </Box>
                 </Box>
                 <Box display="flex" justifyContent="center" m={1} p={1}>
