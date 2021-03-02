@@ -72,6 +72,11 @@
   height: auto;
 }
 
+.image-large{
+  max-width: 400px;
+  height: auto;
+}
+
 .design-image-large{
   max-width: 87%;
   height: auto;

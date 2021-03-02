@@ -3,15 +3,13 @@ import { useRef, useEffect } from 'react';
 import Box from '@material-ui/core/Box';
 
 import code_image from './images/code_image.jpg';
-import astro_image from './images/astro.png';
 import foa_image from './images/foa.png';
 import hearts_image from './images/hearts.png';
-import ordlips_image from './images/ordlips.jpg';
-import mona_image from './images/mona.png';
+import big_heart_image from './images/big_heart.png';
 import ordinary_image from './images/ordinary.png';
-import secret_image from './images/secret.png';
 import gallery_image from './images/gallery.jpg';
 import error_popup_gif from './images/error_popup.gif';
+import rant_image from './images/rant.png';
 import './App.css';
 
 function App() {
@@ -59,29 +57,19 @@ function App() {
                     <img src={foa_image} className="design-image-large"/>
                   </Box>
                 </Box>
+                <Box display="flex" justifyContent="center" m={1} p={1} >
+                  <Box p={1}>
+                    <img src={big_heart_image} className="design-image image-large"/>
+                  </Box>
+                </Box>
                 <Box display="flex" justifyContent="center" m={1} p={1}>
                   <Box p={1}>
                     <img src={hearts_image} className="App-logo"/>
                   </Box>
                 </Box>
-                <Box display="flex" justifyContent="center" m={1} p={1} >
-                  <Box p={1}>
-                    <img src={astro_image} className="design-image-large"/>
-                  </Box>
-                </Box>
                 <Box display="flex" justifyContent="center" m={1} p={1}>
                   <Box p={1}>
-                    <img src={ordlips_image} className="design-image"/>
-                  </Box>
-                </Box>
-                <Box display="flex" justifyContent="center" m={1} p={1}>
-                  <Box p={1}>
-                    <img src={secret_image} className="design-image-large"/>
-                  </Box>
-                </Box>
-                <Box display="flex" justifyContent="center" m={1} p={1}>
-                  <Box p={1}>
-                    <img src={mona_image} className="design-image"/>
+                    <img src={rant_image} className="design-image image-large"/>
                   </Box>
                 </Box>
                 <Box display="flex" justifyContent="center" m={1} p={1}>
