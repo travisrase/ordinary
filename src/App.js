@@ -10,6 +10,7 @@ import ordinary_image from './images/ordinary.png';
 import gallery_image from './images/gallery.jpg';
 import error_popup_gif from './images/error_popup.gif';
 import rant_image from './images/rant.png';
+import still_image from './images/still.png';
 import './App.css';
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
   useEffect(() => {
     setTimeout(function() { 
       divRef.current.scrollIntoView({ behavior: 'smooth' });
-    }.bind(this), 3000)
+    }.bind(this), 2000)
   });
 
   return (
@@ -65,6 +66,11 @@ function App() {
                 <Box display="flex" justifyContent="center" m={1} p={1}>
                   <Box p={1}>
                     <img src={hearts_image} className="App-logo"/>
+                  </Box>
+                </Box>
+                <Box display="flex" justifyContent="center" m={1} p={1}>
+                  <Box p={1}>
+                    <img src={still_image} className="image-large"/>
                   </Box>
                 </Box>
                 <Box display="flex" justifyContent="center" m={1} p={1}>
